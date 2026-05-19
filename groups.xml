@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regresion">
+<listeners>
+<listener class-name="com.bit.DB.BaseListener"></listener>
+</listeners>
+<test name="test1">
+
+
+<packages>
+<package name="com.bit.test"></package>
+</packages> 
+</test>
+
+<!-- test name="test2">
+<classes>
+<class name="com.bit.test.DBTest"></class>
+<class name="com.bit.test.SmokeTestTest">
+<methods>
+<include name="test1"></include>
+</methods>
+</class>
+</classes>
+</test>
+<test name="test3">
+<classes>
+<class name="com.bit.test.DBTest"></class>
+</classes>
+</test> -->
+</suite>

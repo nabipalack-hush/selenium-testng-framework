@@ -1,0 +1,4 @@
+2021-09-19 13:00:25,370 FATAL [log4jPrac] this is fatal 
+2021-09-19 13:00:25,372 ERROR [log4jPrac] this is error 
+2021-09-19 13:00:25,373 WARN  [log4jPrac] this is waen 
+2021-09-19 13:00:25,373 INFO  [log4jPrac] this is info 
